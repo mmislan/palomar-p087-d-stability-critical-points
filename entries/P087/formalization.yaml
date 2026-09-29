@@ -1,0 +1,104 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "A critical-point criterion for D-stability in every dimension",
+    "description": "Johnson's contact criterion for D-stability is expressed as an explicit principal-minor critical-point system. For every real square matrix and every choice of positive barrier weights, D-stability is equivalent to Hurwitz stability and the absence of positive solutions of the associated Fritz-John equations. The proof applies a proper exhaustion of the positive orthant to Johnson's contact variety, so that every nonempty contact set contains a critical point. In dimension five, the criterion is written explicitly as a Lagrange system and a tangency system, with coefficients given by principal minors. Both equivalences are formalized in Lean. The result applies the classical critical-point method to the characterization problem discussed by Kanovei and Logofet (1998) and Kushel (arXiv:2604.16526).",
+    "authors": [
+      "Michael Mislan"
+    ],
+    "responsible_maintainers": [
+      "Michael Mislan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "classification": {
+    "arxiv": [
+      "math.DS"
+    ],
+    "msc2020": [
+      "15A18",
+      "34D20",
+      "14P10"
+    ]
+  },
+  "sources": [
+    {
+      "title": "A critical-point criterion for D-stability in every dimension",
+      "authors": [
+        "Michael Mislan"
+      ],
+      "type": "paper",
+      "relationship": "formalizes",
+      "location": "papers/P087/paper.pdf",
+      "note": "Theorems 3.4 and 3.6: the all-dimensional principal-minor criterion and its five-dimensional specialization.",
+      "url": "https://github.com/michael-mislan/Reaction_Networks/blob/main/Theory/D-Stability/P087-d-stability-contact-critical-points.pdf"
+    },
+    {
+      "title": "A characterization of the nonlinearity of D-stability",
+      "authors": [
+        "Charles R. Johnson"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "location": "https://doi.org/10.1016/0304-4068(75)90015-4",
+      "url": "https://doi.org/10.1016/0304-4068(75)90015-4",
+      "note": "1975 contact criterion; the mathematical starting point."
+    },
+    {
+      "title": "D-stability of 4-by-4 matrices",
+      "authors": [
+        "G. V. Kanovei",
+        "D. O. Logofet"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "location": "https://www.mathnet.ru/eng/zvmmf1812",
+      "url": "https://www.mathnet.ru/eng/zvmmf1812",
+      "note": "1998 four-dimensional characterization; background rather than an assumed theorem."
+    },
+    {
+      "title": "Recursive determinantal framework for testing D-stability. I",
+      "authors": [
+        "Olga Y. Kushel"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "location": "https://arxiv.org/abs/2604.16526",
+      "url": "https://arxiv.org/abs/2604.16526",
+      "note": "Related principal-minor and elimination approach; see its introduction and Sections 3–6."
+    },
+    {
+      "title": "Critical Point Computations on Smooth Varieties: Degree and Complexity bounds",
+      "authors": [
+        "Mohab Safey El Din",
+        "Pierre-Jean Spaenlehauer"
+      ],
+      "type": "paper",
+      "relationship": "background",
+      "location": "https://arxiv.org/abs/1605.02518",
+      "url": "https://arxiv.org/abs/1605.02518",
+      "note": "Background on the classical critical-point method. Its degree bounds are not selected Lean claims."
+    }
+  ],
+  "status": {
+    "scope": "For every dimension, D-stability is equivalent to Hurwitz stability and absence of positive contact points satisfying the explicit principal-minor Fritz-John system. The selected 5x5 specialization states both the Lagrange and tangency branches with explicit coefficient sums and positive barrier weights."
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "tool_setup": "AI-assisted proof development, source review and submission preparation using Codex.",
+        "framework": "Codex",
+        "models": []
+      }
+    ],
+    "notes": "Complete historical model identifiers are not available and are not inferred."
+  },
+  "review": {
+    "status": "agent-reviewed",
+    "notes": "Agent-assisted review of the selected statements, their definitions, manuscript correspondence and included dependency closure."
+  },
+  "fidelity": {
+    "divergences": "The selected declarations prove two exact equivalences, with both Lagrange and tangency branches retained in dimension five. Generic finiteness, root isolation, termination of a decision algorithm, numerical counts and runtime experiments are not selected formal results."
+  }
+}

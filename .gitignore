@@ -1,0 +1,5 @@
+.lake/
+.local/
+*.olean
+*.ilean
+*.trace

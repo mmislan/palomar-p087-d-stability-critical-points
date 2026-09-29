@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Registry.P087.Challenge",
+  "solution_module": "Registry.P087.Solution",
+  "theorem_names": [
+    "DStability5x5.dStable_iff_explicit",
+    "DStability5x5.dStable_iff_five"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

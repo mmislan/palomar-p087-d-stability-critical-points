@@ -1,0 +1,5 @@
+# A critical-point criterion for D-stability in every dimension
+
+Johnson's contact criterion for D-stability is expressed as an explicit principal-minor critical-point system. For every real square matrix and every choice of positive barrier weights, D-stability is equivalent to Hurwitz stability and the absence of positive solutions of the associated Fritz-John equations. The proof applies a proper exhaustion of the positive orthant to Johnson's contact variety, so that every nonempty contact set contains a critical point. In dimension five, the criterion is written explicitly as a Lagrange system and a tangency system, with coefficients given by principal minors. Both equivalences are formalized in Lean. The result applies the classical critical-point method to the characterization problem discussed by Kanovei and Logofet (1998) and Kushel ([arXiv:2604.16526](https://arxiv.org/abs/2604.16526)).
+
+[Formal statements](Registry/P087/Challenge.lean) · [Proof](Registry/P087/Solution.lean) · [Manuscript](papers/P087/paper.pdf) · [Claim correspondence](entries/P087/CLAIM-EVIDENCE.md)
